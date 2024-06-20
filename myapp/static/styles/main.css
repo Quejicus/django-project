@@ -1,0 +1,45 @@
+body {
+  background: #448;
+  color: whitesmoke;
+}
+
+.navbar {
+  background: #224;
+  padding: 4px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: #0de;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0eb;
+}
+
+.container {
+  background: #88d;
+  margin: auto;
+  align-self: center;
+  padding: 2px 2px 6px 2px;
+}
+
+.card, .tasks {
+  background: #66d;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 6px;
+}
+
+.input {
+  display: block;
+  background: rgb(199, 199, 238);
+  padding: 4px;
+  text-align: center;
+}
